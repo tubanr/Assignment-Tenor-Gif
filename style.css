@@ -1,0 +1,107 @@
+body
+    {
+    margin: 0;
+  
+    background-color: #021924  ;
+    }
+
+    input[type=text] {
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+/* When the input field gets focus, change its width to 100% */
+    input[type=text]:focus {
+    width: 50%;
+    }
+    #header{
+        height: 20%;
+        
+    }
+    div#search-bar{
+        height: 100px;
+    }
+    input#search-text{
+        height: 35px;
+        border-radius: 5px;
+        border-color: rgb(12, 2, 3);
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        background-color: rgb(233, 228, 208);
+    }
+
+    button#search-btn{
+        height: 35px;
+        padding: 2 0 2 0;
+        border-color: rgb(123, 118, 136);
+        border-radius: 5px;
+        background-color: rgb(233, 228, 208);
+        
+    }
+    div#Search.tabcontent{
+     
+ 
+    }
+    div#inner{
+     margin-left:0px;
+     margin-right: 120px;
+    }
+    #nav-bar{
+     background-image: url("");
+     
+     background-image: url("imjpg.jpg");
+      
+      
+    }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  height: 130px;
+  margin-left: 5%;
+  margin-top: 0;
+ 
+  
+  
+}
+
+li {
+  float: left;
+  margin-top: 90px;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin-top: 0;
+  font-size: larger;
+  
+  
+}
+
+li a:hover {
+  background-color:rgba(1, 32, 44, 0.87);
+  border-radius: 10px;
+  
+   
+  
+}
+
+.gif{
+  float: right;
+  margin-right:90px ;
+  font-size: 50px;
+ 
+  font-style: italic;
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+
+
+
+
+}
